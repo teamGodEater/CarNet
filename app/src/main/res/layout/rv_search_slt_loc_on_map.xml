@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_location_on_primery"
+        android:alpha="0.87"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+    <TextView
+        android:text="地图选点"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+    <teamgodeater.car_net.Widget.RippleView
+        android:id="@+id/Click"
+        app:showClickBackground="true"
+        app:rippleColor="@color/colorBlack5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_gravity="bottom"
+        android:background="@color/colorBlack10" />
+
+
+</FrameLayout>

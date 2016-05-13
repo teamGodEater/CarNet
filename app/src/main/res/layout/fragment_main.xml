@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/Map"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.baidu.mapapi.map.MapView>
+
+    <ImageView
+        android:id="@+id/MyLocation"
+        android:clickable="true"
+        android:padding="8dp"
+        android:src="@drawable/ic_gps_fixed_black_18dp"
+        android:background="@drawable/shape_rounded_rectangle"
+        android:layout_above="@+id/BottomContain"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <FrameLayout
+        android:id="@+id/BottomContain"
+        android:background="@color/colorBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></FrameLayout>
+
+</RelativeLayout>

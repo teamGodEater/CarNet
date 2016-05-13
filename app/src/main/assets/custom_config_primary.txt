@@ -1,0 +1,159 @@
+[
+{
+"featureType": "land",
+"elementType": "geometry",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "building",
+"elementType": "geometry",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "highway",
+"elementType": "geometry.stroke",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "highway",
+"elementType": "geometry.fill",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "arterial",
+"elementType": "geometry.fill",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "arterial",
+"elementType": "geometry.stroke",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "green",
+"elementType": "geometry",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "water",
+"elementType": "geometry",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "subway",
+"elementType": "geometry.stroke",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "manmade",
+"elementType": "geometry",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "local",
+"elementType": "geometry",
+"stylers": {
+"color":"#34485d"
+}
+},
+{
+"featureType": "boundary",
+"elementType": "geometry",
+"stylers": {
+"color": "#34485d"
+
+}
+},
+{
+"featureType": "districtlabel",
+"elementType": "labels.text.stroke",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "districtlabel",
+"elementType": "labels.text.fill",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "poilabel",
+"elementType": "labels.text.stroke",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "poilabel",
+"elementType": "labels.text.fill",
+"stylers": {
+"color": "#34485d"
+}
+}
+,
+{
+"featureType": "highway",
+"elementType": "labels.text.stroke",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "highway",
+"elementType": "labels.text.fill",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "arterial",
+"elementType": "labels.text.stroke",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "arterial",
+"elementType": "labels.text.fill",
+"stylers": {
+"color": "#29394a"
+}
+},
+{
+"featureType": "local",
+"elementType": "labels.text.stroke",
+"stylers": {
+"color": "#34485d"
+}
+},
+{
+"featureType": "local",
+"elementType": "labels.text.fill",
+"stylers": {
+"color": "#34485d"
+}
+}
+
+]
